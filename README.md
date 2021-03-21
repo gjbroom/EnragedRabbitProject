@@ -2,7 +2,7 @@
 
 Welcome to the Enraged Rabbit Project Github page!
 
-This project aims to bring multimaterial capabilities to 3D printers using a single Direct Drive toolhead, similar to what the Prusa MMU2 does. While this project is mainly dedicated to be used on Voron V2s, the main components can also be used on any 3D printer that runs Klipper.
+This project aims to bring multimaterial capabilities to 3D printers using a single Direct Drive toolhead, similar to what the Prusa MMU2 does. While this project is mainly dedicated to be used on Voron V2s, the main components can also be used on any 3D printer that runs Klipper. It was inspired by the Prusa MMU2 and the Smuff.
 
  You like this project? You want to support me and my work, help me bring new cool stuff to the community? Well you can tip me here :
 [![paypal](https://www.paypalobjects.com/en_US/FR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?business=C9MG5LQSQRKN4&currency_code=EUR)
@@ -35,6 +35,10 @@ There are 4 components so far :
  
  The BOM for those components can be found here : https://docs.google.com/spreadsheets/d/1djVxoKnByb41ifVy2JTfhXmdf9UYpnUYfhvcNyUDuLw/edit?usp=sharing.
  
+# Acknowledgements
+
+Thanks to the Voron design devs and Voron discord members for the discussions and support, with a special thanks to the #honhonhonbaguette-FR members!!
+ 
 # FAQ
 ## General
 **Q:** In what material should this be printed with?  
@@ -49,7 +53,7 @@ There are 4 components so far :
 **A:** Of course, klipper allows you to use as many MCUs as you want. In the end you'll need to control 2 stepper motors, 1 5V servo, 1 mechanical switch, 1 optical sensor and 1 filament detector.
 
 
-## Carrof Feeder
+## Carrot Feeder
 **Q:** How many channels can I build on the Carrot Feeder?  
 **A:** Only mechanical limitation will come from the length of the 5mm D-cut shaft that holds the Bondtech-type Gears. A 9 channel system will work (this is my own testing unit). Going higher (like 12 or 15) might be possible, but it hasn't been tested yet.
 
